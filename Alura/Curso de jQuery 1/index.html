@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery - Curso</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <h2>Geral</h2>
+    <a href="" id="esconde-propagandas">Esconder Propagandas</a>
+    <br>
+    <a href="" id="mostra-propagandas">Mostrar Propagandas</a>
+    <div class="carrinho">
+        <h2>Carrinho entrega em São Paulo</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Nome</td>
+                    <td>Quantidade</td>
+                    <td>Valor</td>
+                    <td>Total</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/tablet.jpg" alt="Tablet Multilaser"></td>
+                    <td>Tablet Multilaser 10'</td>
+                    <td>1</td>
+                    <td>499.00</td>
+                    <td class="item-total">499.00</td>
+                    <td><a class="remove-item" href="">(remover)</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/camera.jpg" alt="Camera Sony"></td>
+                    <td>Camera Sony</td>
+                    <td>2</td>
+                    <td>999.00</td>
+                    <td class="item-total">1998.00</td>
+                    <td><a class="remove-item" href="">(remover)</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/notebook.jpg" alt="Notebook Asus"></td>
+                    <td>Notebook Asus 14'</td>
+                    <td>1</td>
+                    <td>2499.00</td>
+                    <td class="item-total">2499.00</td>
+                    <td><a class="remove-item" href="">(remover)</a></td>
+                </tr>
+                <tr>
+                    <td><img src="img/telefone.jpg" alt="Smartphone Samsung"></td>
+                    <td>Smartphone Samsung S8</td>
+                    <td>3</td>
+                    <td>2499.00</td>
+                    <td class="item-total">7497.00</td>
+                    <td><a class="remove-item" href="">(remover)</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <input type="button" class="undo" value="Undo">
+        </div>
+        <div class="resumo">
+            Valor total: R$ <span class="valor-total">0</span>
+            <br>
+            Quantidade de Itens: <span class="quantidade-itens">0</span>
+        </div>
+    </div>
+
+    <div class="carrinho">
+        <h2>Carrinho entrega em Vitória</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Nome</td>
+                    <td>Quantidade</td>
+                    <td>Valor</td>
+                    <td>Total</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/headset.jpg" alt="Headset Gamer"></td>
+                    <td>Headset Gamer</td>
+                    <td>1</td>
+                    <td>99.00</td>
+                    <td class="item-total">99.00</td>
+                    <td><a class="remove-item" href="">(remover)</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <input type="button" class="undo" value="Undo">
+        </div>
+        <div class="resumo">
+            Valor total: R$ <span class="valor-total">0</span>
+            <br>
+            Quantidade de Itens: <span class="quantidade-itens">0</span>
+        </div>
+    </div>
+    <div class="carrinho">
+        <h2>Carrinho entrega no Rio de Janeiro</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Nome</td>
+                    <td>Quantidade</td>
+                    <td>Valor</td>
+                    <td>Total</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/telefone.jpg" alt="Smartphone Samsung"></td>
+                    <td>Smartphone Samsung S8</td>
+                    <td>3</td>
+                    <td>2499.00</td>
+                    <td class="item-total">7497.00</td>
+                    <td><a class="remove-item" href="">(remover)</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <input type="button" class="undo" value="Undo">
+        </div>
+        <div class="resumo">
+            Valor total: R$ <span class="valor-total">0</span>
+            <br>
+            Quantidade de Itens: <span class="quantidade-itens">0</span>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+img { width: 50px; }
+.principal { width: 100%; }
+.remover { display: none; }
+.hovering { background-color: #ccc; }
+
+h2 {
+    font-family: sans-serif;
+    margin-left: 40%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 75%;
+    margin: auto;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
